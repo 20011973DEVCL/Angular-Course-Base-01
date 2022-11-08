@@ -24,10 +24,5 @@ export class ContadorComponent {
     acumular( valor: number ) {
         this.numero += valor;
     }
-  
-    restar(base:number):void {
-      // this.numero -=1;
-      this.numero -= base;
-    }
 
 }
